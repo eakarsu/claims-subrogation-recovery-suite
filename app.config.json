@@ -1,0 +1,145 @@
+{
+  "slug": "claims-subrogation-recovery-suite",
+  "title": "Claims Subrogation Recovery Suite",
+  "buyer": "Insurers, TPAs, recovery vendors",
+  "description": "Subrogation detection, liability evidence, demand packages, recovery tracking, and legal escalation.",
+  "modules": [
+    {
+      "id": "opportunity-detection",
+      "table": "opportunityDetection",
+      "label": "Opportunity Detection",
+      "description": "Opportunity Detection workspace for Claims Subrogation Recovery Suite.",
+      "subfeatures": [
+        "Third-party indicators",
+        "Coverage review",
+        "Score"
+      ],
+      "prefix": "OD",
+      "seedValues": [
+        "Third-party indicators",
+        "Coverage review",
+        "Score"
+      ]
+    },
+    {
+      "id": "liability-evidence",
+      "table": "liabilityEvidence",
+      "label": "Liability Evidence",
+      "description": "Liability Evidence workspace for Claims Subrogation Recovery Suite.",
+      "subfeatures": [
+        "Police reports",
+        "Photos",
+        "Witnesses"
+      ],
+      "prefix": "LE",
+      "seedValues": [
+        "Police reports",
+        "Photos",
+        "Witnesses"
+      ]
+    },
+    {
+      "id": "demand-packages",
+      "table": "demandPackages",
+      "label": "Demand Packages",
+      "description": "Demand Packages workspace for Claims Subrogation Recovery Suite.",
+      "subfeatures": [
+        "Demand letter",
+        "Evidence bundle",
+        "Amount"
+      ],
+      "prefix": "DP",
+      "seedValues": [
+        "Demand letter",
+        "Evidence bundle",
+        "Amount"
+      ]
+    },
+    {
+      "id": "carrier-negotiation",
+      "table": "carrierNegotiation",
+      "label": "Carrier Negotiation",
+      "description": "Carrier Negotiation workspace for Claims Subrogation Recovery Suite.",
+      "subfeatures": [
+        "Counteroffers",
+        "Arbitration",
+        "Settlement"
+      ],
+      "prefix": "CN",
+      "seedValues": [
+        "Counteroffers",
+        "Arbitration",
+        "Settlement"
+      ]
+    },
+    {
+      "id": "legal-escalation",
+      "table": "legalEscalation",
+      "label": "Legal Escalation",
+      "description": "Legal Escalation workspace for Claims Subrogation Recovery Suite.",
+      "subfeatures": [
+        "Counsel review",
+        "Suit deadline",
+        "Venue"
+      ],
+      "prefix": "LE",
+      "seedValues": [
+        "Counsel review",
+        "Suit deadline",
+        "Venue"
+      ]
+    },
+    {
+      "id": "recoveries",
+      "table": "recoveries",
+      "label": "Recoveries",
+      "description": "Recoveries workspace for Claims Subrogation Recovery Suite.",
+      "subfeatures": [
+        "Expected recovery",
+        "Collected",
+        "Aging"
+      ],
+      "prefix": "R",
+      "seedValues": [
+        "Expected recovery",
+        "Collected",
+        "Aging"
+      ]
+    },
+    {
+      "id": "analytics",
+      "table": "analytics",
+      "label": "Recovery Analytics",
+      "description": "Recovery Analytics workspace for Claims Subrogation Recovery Suite.",
+      "subfeatures": [
+        "Hit rate",
+        "Cycle time",
+        "Leakage"
+      ],
+      "prefix": "RA",
+      "seedValues": [
+        "Hit rate",
+        "Cycle time",
+        "Leakage"
+      ]
+    },
+    {
+      "id": "compliance",
+      "table": "compliance",
+      "label": "Compliance",
+      "description": "Compliance workspace for Claims Subrogation Recovery Suite.",
+      "subfeatures": [
+        "Notice rules",
+        "Audit trail",
+        "Approvals"
+      ],
+      "prefix": "C",
+      "seedValues": [
+        "Notice rules",
+        "Audit trail",
+        "Approvals"
+      ]
+    }
+  ],
+  "port": 5610
+}
